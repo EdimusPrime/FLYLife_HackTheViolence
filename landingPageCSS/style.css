@@ -1,0 +1,336 @@
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*Header info*/
+.header{
+	background-color: black;
+	color: white;
+	height: 11vh;
+	align-content: center;
+	position:fixed;
+	width:100vw;
+	top:0;
+	z-index: 3;
+	padding: 3rem 0 0 1.5rem;
+	transition: top .5s;
+}
+
+.gizle {
+  top: -90px;
+}
+
+.sabit {
+  top:0;
+	z-index: 9999;
+}
+
+.header a{
+	color: white;
+	opacity: .8;
+	font-size: 1.4rem;	
+}
+
+.header a:hover{
+	opacity: 1;
+	text-decoration: none;
+}
+
+.nav_logo{
+	padding-left: 5rem;
+}
+
+.nav_tabs{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 300;
+}
+
+.main{
+	padding-top: 10rem;
+	background: #FF22CD;
+	background: -webkit-linear-gradient(left top, #FF22CD, #af138b);
+	/* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #FF22CD, #af138b);
+  	/* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #FF22CD, #af138b); 
+  	/* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #FF22CD, #af138b); 
+  	/* Standard syntax */
+}
+
+.my-container{
+	position: relative;
+    height: 100vh;
+    color: white;
+}
+
+.app{
+	position: relative;
+	top: 0 !important;
+}
+
+.app_text{
+	padding: 45rem 0 5rem 5rem;
+}
+
+#fly_title{
+	display: flex;
+	justify-content: center;
+	padding-top: 13rem;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 12rem;
+}
+
+.app:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('http://theflylife.org/wp-content/themes/fatmoon/images/landingImages/appInUsePic.JPG');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.app h4, .app h1, .features h4, .features h1{
+    text-align: left;
+    z-index: 2;
+    position: relative;
+}
+
+
+.app h4, .features h2, .features_text{
+	padding: 50px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+}
+
+.features h2, .features h1, .features_text{
+	color: black;
+}
+
+
+.features_text{
+	padding: 10rem 6rem 5rem 5rem;
+	line-height: 20rem;
+}
+
+.features_text h1, .call_text h1{
+	padding-top: 4rem;
+	font-size: 5.5rem;
+	font-weight: 700;
+}
+
+.features_text h3{
+	line-height: 6rem;
+}
+
+.features .features_pics, .features .features_text{
+	/*margin-top: 10rem;*/
+	margin-right: 3rem;
+	margin: auto;
+}
+
+
+#features:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('http://theflylife.org/wp-content/themes/fatmoon/images/landingImages/PhoneInUseOutside.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.features_pics{
+	opacity: 1;
+	z-index: 2;
+	padding: 5rem;
+	padding-top: 1rem;
+}
+
+.features, .features_list{
+	display: flex;
+	padding-bottom: 5rem;
+}
+
+.features_list_items{
+	margin: auto;
+	text-align: left;
+	font-size: 2.7rem;
+	opacity: 1;
+	z-index: 2;
+	line-height: 8rem;
+}
+
+.features_list:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('http://theflylife.org/wp-content/themes/fatmoon/images/landingImages/PhoneInUseInBed.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.contact:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background-image: url('http://theflylife.org/wp-content/themes/fatmoon/images/landingImages/PhoneInUseAfro.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.contact{
+	opacity: 1;
+}
+
+.download_app{
+	padding-top: 10rem;
+	margin: auto;
+}
+
+.download_app a{
+	opacity: 1;
+	z-index: 2;
+	margin: 0 4rem;
+}
+
+.download_app img:hover{
+	cursor: pointer;
+}
+
+.contact_form{
+	padding: 4rem;
+	margin: auto;
+}
+
+label, select{
+	color: black;
+}
+
+select:focus {
+	background-color: #FF22CD;
+	cursor: pointer;
+}
+
+.call_text{
+	padding-top: 5rem;
+	font-size: 13rem;
+	opacity: 1;
+	z-index: 2;
+	color: #FF22CD;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.sign_up{
+	padding-top: 5rem;
+	font-size: 3.5rem;
+	opacity: 1;
+	z-index: 2;
+	color: #FF22CD;
+}
+
+button:hover{
+	background-color: #FF22CD
+}
+
+input:focus {
+	color:#FF22CD;
+}
+
+input[type=text]:focus, textarea[type=text]:focus {
+  box-shadow: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 2px solid #FF22CD;
+}
+
+ button{
+ 	opacity: 1;
+	background-color: #444143;
+}
+
+#break{
+	width: 100%;
+	background-color: black;
+	color: white;
+	/*margin: auto;*/
+	text-align: center;
+	font-size: 4rem;
+	height: 35vh;
+	padding: 12rem;
+}
+
+.foot-content{
+	width: 100vw;
+	display: inline-flex;
+	justify-content: space-around;
+	padding: 5rem 15rem;
+	background: black;
+	color: #7f7f7f;
+	opacity: 1;
+	font-size: 1.4rem;
+}
+
+span{
+	color: white;
+	font-size: 1.8rem;
+}
+
+.textwidget{
+	width: 20vw;
+	margin: auto;
+}
+
+.f-links{
+	width: 100vw;
+	background-color: #101010;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20rem;
+}
