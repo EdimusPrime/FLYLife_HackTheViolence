@@ -124,7 +124,7 @@
 
 									<label for="position">I am Interested in...</label>
 				    				<select id="position" name="position">
-      									<option value="flygirl">Being a Flygirl</option>
+      									<option value="flygirl">Being a Fly Girl</option>
       									<option value="mentor">Being a Mentor</option>
       									<option value="sponsor">Being a Sponsor</option>
       									<option value="app">App Update</option>
